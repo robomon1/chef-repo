@@ -1,4 +1,3 @@
-name              "graylog2_chef"
 maintainer        "Phil Sturgeon"
 maintainer_email  "email@philsturgeon.co.uk"
 license           "Apache 2.0"
