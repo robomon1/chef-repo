@@ -1,5 +1,5 @@
 {
-  "name": "graylog2_chef",
+  "name": "graylog2",
   "description": "Installs and configures Graylog2",
   "long_description": "",
   "maintainer": "Phil Sturgeon",
