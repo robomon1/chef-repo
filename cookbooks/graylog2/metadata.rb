@@ -13,7 +13,7 @@ depends "apache2" # http://community.opscode.com/cookbooks/apache2
 depends "mongodb" # http://community.opscode.com/cookbooks/mongodb
 depends "rbenv"   # http://community.opscode.com/cookbooks/rbenv
 
-# recipe "graylog2", "Installs and configures Graylog2"
+recipe "graylog2::default", "Installs and configures Graylog2"
 recipe "graylog2::server", "Installs and configures Graylog2 Server"
 recipe "graylog2::web_interface", "Installs and configures Graylog2 Web Interface"
 recipe "graylog2::apache2", "Installs and configures Apache2 to server up the Graylog2 Web Interface"
